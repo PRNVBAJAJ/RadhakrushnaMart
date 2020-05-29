@@ -441,7 +441,7 @@ span.head-w3l {
 }
 .agile-about-grid2{
 	background:url(../images/R.jpg) center no-repeat;
-	/* min-height:350px; */
+	min-height:350px;
 }
 .about-info-grids span.head-w3l {
     color: #0087c9;
