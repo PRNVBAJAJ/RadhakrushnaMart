@@ -79,6 +79,14 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	-moz-transition:.5s all; 
 	transition:.5s all;
 }
+
+nav.navbar.navbar-default.teams-navbar {
+    background:rgba(0, 0, 0, 0.53);
+    border: none;
+	/* -webkit-transition:.5s all;
+	-moz-transition:.5s all; 
+	transition:.5s all; */
+}
 .navbar-default .navbar-nav > li > a {
     color: #ffa100;
     font-size: 1.2em;
@@ -1578,4 +1586,129 @@ ul.social-icons li a.icon5:hover {
     left: 11.5%;
 }
 }
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team .member {
+	text-align: center;
+	margin-bottom: 20px;
+	background: #343a40;
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .team .member .member-info {
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: 0.2s;
+  }
+  
+  .team .member .member-info-content {
+	position: absolute;
+	left: 50px;
+	right: 0;
+	bottom: 0;
+	transition: bottom 0.4s;
+  }
+  
+  .team .member .member-info-content h4 {
+	font-weight: 700;
+	margin-bottom: 2px;
+	font-size: 18px;
+	color: #fff;
+  }
+  
+  .team .member .member-info-content span {
+	font-style: italic;
+	display: block;
+	font-size: 13px;
+	color: #fff;
+  }
+  
+  .team .member .social {
+	position: absolute;
+	left: -50px;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	transition: left ease-in-out 0.3s;
+	background: rgba(11, 35, 65, 0.5);
+	text-align: center;
+  }
+  
+  .team .member .social a {
+	transition: color 0.3s;
+	display: block;
+	color: #fff;
+	margin-top: 15px;
+  }
+  
+  .team .member .social a:hover {
+	color: #24abd4;
+  }
+  
+  .team .member .social i {
+	font-size: 18px;
+	margin: 0 2px;
+  }
+  
+  .team .member:hover .member-info {
+	background: linear-gradient(0deg, rgba(11, 35, 65, 0.9) 0%, rgba(11, 35, 65, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+	opacity: 1;
+	transition: 0.4s;
+  }
+  
+  .team .member:hover .member-info-content {
+	bottom: 30px;
+	transition: bottom 0.4s;
+  }
+  
+  .team .member:hover .social {
+	left: 0;
+	transition: left ease-in-out 0.3s;
+  }
+
+
+  .section-title {
+	padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1px;
+	margin: 0 0 5px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #aaaaaa;
+	font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+	content: "";
+	width: 120px;
+	height: 1px;
+	display: inline-block;
+	background: #f38b74;
+	margin: 4px 10px;
+  }
+  
+  .section-title p {
+	margin: 0;
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+	color: #0f2f57;
+  }
+
+ 
 /* -- //Responsive code -- */  
