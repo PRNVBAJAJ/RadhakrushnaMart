@@ -1,9 +1,4 @@
-/*--Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
- --*/
-/*-- Reset Code --*/
+
 body { 
 	padding: 0;
 	margin: 0;
@@ -133,6 +128,7 @@ i.fa.fa-cubes {
     padding: 23em 0;
 }
 .banner_text_w3layouts h3 {
+	font-family: 'Piedra', cursive;
     color: #fff;
     font-size: 2.7em;
     margin: 0.5em 0;
@@ -436,7 +432,7 @@ span.head-w3l {
 	font-size:1.1em;
 }
 .agile-about-grid2{
-	background:url(../images/2.jpg) center no-repeat;
+	background:url(../images/R.jpg) center no-repeat;
 	min-height:350px;
 }
 .about-info-grids span.head-w3l {
