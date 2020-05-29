@@ -439,10 +439,10 @@ span.head-w3l {
 	color: #777;
 	font-size:1.1em;
 }
-.agile-about-grid2{
-	background:url(../images/R.jpg) center no-repeat;
+/* .agile-about-grid2{
+	background:<img src=""> center no-repeat;
 	min-height:350px;
-}
+} */
 .about-info-grids span.head-w3l {
     color: #0087c9;
 }
