@@ -879,7 +879,11 @@ span.test-info {
     margin: 0.3em 0 0.5em 0;
 }
 .contact-right-w3l {
-	padding:0;
+	padding:0px;
+}
+
+.contact-right-w3l:hover {
+	box-shadow: 5px 5px 2px 1px rgb(194, 171, 171);
 }
 .contact-right-w3l iframe {
     width: 100%;
