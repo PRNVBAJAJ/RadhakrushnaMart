@@ -971,8 +971,19 @@ span.test-info {
 }
 /*-- contact --*/
 /*-- footer --*/
-.agile-w3layouts-footer.text-center {
-    background: #000;
+.agile-w3layouts-footer.footer{
+	background: #000;
+	position: fixed;
+	margin-top: -150px;
+	height: 150px;
+	bottom: 0;
+	width: 100%;
+	opacity: 75%;
+	clear: both;
+}
+
+.agile-w3layouts-footer.text-center{
+	background: #000;
 }
 .social h6 {
     font-size: 1.5em;
@@ -1012,6 +1023,9 @@ ul.social-icons li a.icon4:hover {
 ul.social-icons li a.icon5:hover {
 	color: #bb0000;
 }
+
+
+
 .agile-w3layouts-footer p {
     padding: 1em;
 	color:#fff;
