@@ -1074,6 +1074,40 @@ ul.social-icons li a.icon5:hover {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
+
+
+/*-- Price LIst-- */
+.pl{
+	margin-top: 5% ;
+}
+
+.plactive{
+	text-decoration-color: floralwhite;
+}
+
+.panel {
+
+    transition: padding 0.5s;
+    -moz-transition: padding 0.5s; /* Firefox 4 */
+    -webkit-transition: padding 0.5s; /* Safari and Chrome */
+    -o-transition: padding 0.5s; /* Opera */
+    -ms-transition:padding 0.5s; /* IE9 (maybe) */ 	
+  
+}
+
+.panel:hover {
+	background-color: darkslategray;
+}
+
+.plcard{
+	padding-bottom: 10px;
+}
+
+.plnavbar{
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
 /*-- //to-top --*/
 /* -- Responsive code -- */
 @media screen and (max-width: 1280px){
