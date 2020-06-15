@@ -1111,11 +1111,12 @@ ul.social-icons li a.icon5:hover {
 
 .panel:hover {
 	transform: scale(1.05);	
-	display: block;
+	
 }
 
 .plcard{
 	padding-bottom: 10px;
+	display: block;
 }
 
 .plnavbar{
