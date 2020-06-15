@@ -1075,7 +1075,23 @@ ul.social-icons li a.icon5:hover {
 	filter: alpha(opacity=0);
 }
 
+/* -- Search Bar -- */  
+/*SEARCH FORM*/
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+ .search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+}
 
+.searchbar{
+	margin-bottom: 20px;
+	
+}
+/* -- Search Bar End-- */  
 
 /*-- Price LIst-- */
 .pl{
@@ -1094,7 +1110,7 @@ ul.social-icons li a.icon5:hover {
 }
 
 .panel:hover {
-	background-color: darkslategray;
+	transform: scale(1.05);	
 }
 
 .plcard{
@@ -1792,5 +1808,26 @@ ul.social-icons li a.icon5:hover {
 	color: #0f2f57;
   }
 
+  @media only screen and (min-width : 150px) and (max-width : 780px)
+  {
+	  
+	  	.input-group
+	  	{
+		  width: 100%;
+		  
+		}
+  
+  }
 
+
+  @media only screen and (min-width : 780px) and (max-width : 2160px)
+  {
+	  
+	  	.input-group
+	  	{
+		  width:117.5%;
+		  
+		}
+  
+  }
 /* -- //Responsive code -- */
